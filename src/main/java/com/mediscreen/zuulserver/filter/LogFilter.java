@@ -31,7 +31,7 @@ public class LogFilter extends ZuulFilter {
     public Object run() throws ZuulException {
         HttpServletRequest req = RequestContext.getCurrentContext().getRequest();
         log.warn("*** Requete vue par Zuul :" + req.getRequestURL());
-        log.warn("*** ----- Avec :"+ req.getPathInfo());
+        log.warn("*** ----- Avec :"+ req.getAuthType());
         return null;
     }
 }
