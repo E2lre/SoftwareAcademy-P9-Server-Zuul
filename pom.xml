@@ -13,7 +13,7 @@
 	<artifactId>zuul-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>zuul-server</name>
-	<description>serveur ZULL pour Mediscreen</description>
+	<description>serveur ZUUL pour Mediscreen</description>
 
 	<properties>
 		<java.version>1.8</java.version>
