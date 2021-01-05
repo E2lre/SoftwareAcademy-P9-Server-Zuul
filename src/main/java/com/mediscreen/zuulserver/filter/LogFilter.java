@@ -33,6 +33,9 @@ public class LogFilter extends ZuulFilter {
         HttpServletRequest req = RequestContext.getCurrentContext().getRequest();
         logger.info("*** Requete vue par Zuul :" + req.getRequestURL());
         logger.info("*** ----- Avec getAuthType :"+ req.getAuthType());
+        logger.info("*** ----- Avec getRemoteUser :"+ req.getRemoteUser());
+        logger.info("*** ----- Avec getUserPrincipal :"+ req.getUserPrincipal());
+        logger.info("*** ----- Avec getCookies :"+ req.getCookies());
         logger.info("*** ----- Avec methode :"+ req.getMethod());
         return null;
     }
