@@ -5,7 +5,7 @@ todo
 ## Docker installation
 ###Docker image construction in project directory :
 
-docker build --build-arg JAR_FILE=build/libs/*.jar -t p9-zuul .
+docker build --build-arg JAR_FILE=target/*.jar -t p9-zuul .
 
 ### Docker execution :
 
