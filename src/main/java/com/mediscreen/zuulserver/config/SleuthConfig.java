@@ -1,7 +1,6 @@
 package com.mediscreen.zuulserver.config;
 
 import brave.sampler.Sampler;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
